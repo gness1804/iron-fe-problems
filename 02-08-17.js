@@ -1,4 +1,4 @@
-//closures: what are they? why are they useful?
+//#1:closures: what are they? why are they useful?
 
 //example:
 
@@ -48,6 +48,12 @@ console.log(`The new value of counter1 after decrementing by three is ${counter1
 
 console.log(privateCounter); //returns undefined because privateCounter is a private variable
 
-//we can create many such counters, and they are all independent of each other.
+//we can create many such counters, and they are all independent of each other, thanks to closures.
 
-//make your own examples of closures
+//make your own examples of closures!
+
+//#2: Create a function that reverses an array without using reverse(). How many array methods can we make work with this?
+
+const reverseIt = (array) => {
+
+}
