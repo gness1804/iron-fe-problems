@@ -55,5 +55,5 @@ console.log(privateCounter); //returns undefined because privateCounter is a pri
 //#2: Create a function that reverses an array without using reverse(). How many array methods can we make work with this?
 
 const reverseIt = (array) => {
-
+  
 }
