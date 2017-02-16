@@ -1,0 +1,19 @@
+{
+  "name": "iron-fe-problems",
+  "version": "1.0.0",
+  "description": "Problems for ironFE",
+  "main": "01-26-17.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gness1804/iron-fe-problems.git"
+  },
+  "author": "Graham Nessler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gness1804/iron-fe-problems/issues"
+  },
+  "homepage": "https://github.com/gness1804/iron-fe-problems#readme"
+}
