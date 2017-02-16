@@ -44,3 +44,13 @@ const getPresident = (presidents) => {
 }
 
 //#2: Now write an algorithm that returns two arrays, one for the Democrats and one for the Republicans, ranked from most recent to least recent
+
+const rankedPresidents = (presidents) => {
+
+}
+
+Object.assign(exports, {
+  presidents,
+  getPresident,
+  rankedPresidents,
+})
