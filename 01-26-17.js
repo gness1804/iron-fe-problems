@@ -102,4 +102,5 @@ console.log(dale.mod, dale.program, dale.nationality);
 
 Object.assign(exports, {
   sorter,
+  athletes
 })
