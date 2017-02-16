@@ -19,16 +19,9 @@ const athletes = [
   },
 ]
 
-//solution:
-
 const sorter = (arr) => {
-  let winningest = arr.sort((a, b) => {
-    return a - b;
-  })[0];
-  return `${winningest.name} has won the most titles with ${winningest.titles}.`
-}
 
-console.log(sorter(athletes));
+}
 
 //Bonus: can you write a solution without using the 'sort' method?
 
@@ -57,7 +50,7 @@ let bambi = new Animal({
   favoredFood: 'berries',
 })
 
-console.log(bambi.eat())
+//What will `bambi.eat()` return?
 
 class Human extends Animal {
   constructor(options){
@@ -102,5 +95,6 @@ console.log(dale.mod, dale.program, dale.nationality);
 
 Object.assign(exports, {
   sorter,
-  athletes
+  athletes,
+  Animal,
 })
