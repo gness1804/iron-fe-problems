@@ -73,8 +73,6 @@ let graham = new Human({
   favoredFood: 'pizza',
 })
 
-console.log(graham.nationality, graham.eat(), graham.speak())
-
 class TuringStudent extends Human {
   constructor(options){
     super(options)
@@ -91,10 +89,9 @@ let dale = new TuringStudent({
   program: 'Front End',
 })
 
-console.log(dale.mod, dale.program, dale.nationality);
-
 Object.assign(exports, {
   sorter,
   athletes,
   Animal,
+  TuringStudent,
 })
