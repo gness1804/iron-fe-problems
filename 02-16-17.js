@@ -1,4 +1,4 @@
-//#1: given the following array of presidents, write an algorithm that returns a random Republican
+//#1: given the following array of presidents, write an algorithm that returns a random Republican as a string
 
 const presidents = [
   {
@@ -43,7 +43,7 @@ const getPresident = (presidents) => {
 
 }
 
-//#2: Now write an algorithm that returns two arrays, one for the Democrats and one for the Republicans, ranked from most recent to least recent
+//#2: Now write an algorithm that a string with all the presidents and their party affiliation, ranked from most recent to least recent
 
 const rankedPresidents = (presidents) => {
 
