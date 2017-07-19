@@ -1,5 +1,11 @@
 //#1: given the following array of presidents, write an algorithm that returns a random Republican as a string
 
+// function random(min, max) {
+//   let min = min;
+//   let max = max;
+//   return Math.floor(Math.random() * (max - min) + min);
+// }
+
 const presidents = [
   {
     name: 'Richard Nixon',
